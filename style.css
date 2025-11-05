@@ -1,0 +1,125 @@
+body {
+    background-color: #1c1c1c;
+    color: rgb(237, 231, 223);
+    font-family: sans-serif;
+}
+
+#top-menu {
+    overflow: hidden;
+    background-color: rgb(52, 52, 52);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#top-menu a{
+    float: left;
+    display: block;
+    color: rgb(237, 231, 223);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#top-menu a:hover{
+    background: rgb(237, 231, 223);
+    color: #1c1c1c;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    gap: 20px;
+}
+
+#presentation div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#presentation img {
+    min-width: 100px;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+#presentation h1 {
+    font-size: 96px;
+    margin: 0%;
+}
+
+#presentation h2 {
+    font-size: 64px;
+    margin: 0%;
+}
+
+#main-content {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 225px;
+    gap: 100px;
+}
+
+.mainContentItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.mainContentItem h3 {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.mainContentItem p, ul{
+    width: 100%;
+    font-size: 32px;
+}
+
+#about h3{
+    text-align: center;
+}
+
+#ed-lang {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    height: 200px;
+    background-color: rgb(52, 52, 52);
+}
+
+.contactItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.contactItem img {
+    width: 50px;
+}
+
+.contactItem a{
+    color: rgb(237, 231, 223);
+    text-align: center;
+    text-decoration: none;
+}
